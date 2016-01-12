@@ -1,0 +1,29 @@
+IMPORTANT:
+
+[!!!]You have to install Imagemagick!
+Do it like this:
+
+sudo apt-get install imagemagick
+
+Also, this project can only be used on the Chaos Communication Congress.
+(Or in emulators)
+############################
+What does this project do?
+
+It sends a screenshot every quarter of a second to the Flipdots board.
+############################
+How to run the script?
+
+Open terminal and navigate to this folder.
+When you've done that, you can simply type
+
+'sh run.sh'
+(without the quotes)
+
+and wait for the screenshots to be sent.
+If you want to clear the board, type:
+
+'sh clear.sh'
+(without the quotes)
+
+This sends a blank image to the board.
